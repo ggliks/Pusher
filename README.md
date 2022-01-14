@@ -5,6 +5,8 @@ Pusher 酱是一个基于 go-cqhttp 的安全知识 QQ 推送机器人。她的�
 
 ![](https://cdn.bingbingzi.cn/blog/20220114173218.png)
 
+### 生成的文档
+
 ![](https://cdn.bingbingzi.cn/blog/20220114173307.png)
 ## 使用
 在 Pusher 运行前，需要在本地开启一个 cqhttp 服务 [go-cqhttp](https://github.com/Mrs4s/go-cqhttp) 
