@@ -97,3 +97,17 @@ chmod +x pusher
 
 ## 测试
 
+Pusher 提供了测试命令，可以快速测试机器人的可用性:
+
+```shell
+./pusher -t -g 别名,QQ群号
+```
+
+## 感谢以下开源项目
+[https://github.com/Mrs4s/go-cqhttp](https://github.com/Mrs4s/go-cqhttp)
+
+[https://github.com/Le0nsec/SecCrawler](https://github.com/Le0nsec/SecCrawler)
+
+[https://github.com/EdgeSecurityTeam/EBot](https://github.com/EdgeSecurityTeam/EBot)
+
+[https://github.com/binganao/dailyCVE](https://github.com/binganao/dailyCVE)
