@@ -1,5 +1,10 @@
 # Pusher 酱
-Pusher 酱是一个基于 go-cqhttp 的安全知识 QQ 推送机器人。她的全部功能就是搜集棱角论坛、Seebug Paper、安全客的每日更新，然后推送到指定的 QQ 群里，同时还能搜集当天更新的CVE，对数据进行整理后以 Markdown 文件形式保存到 QQ 群文件内。
+Pusher 酱目前是一个基于 go-cqhttp 的安全知识 QQ 推送机器人。她的全部功能就是搜集棱角论坛、Seebug Paper、安全客的每日更新，然后推送到指定的 QQ 群里，同时还能搜集当天更新的CVE，对数据进行整理后以 Markdown 文件形式保存到 QQ 群文件内。
+
+### Comming soon
+
+- 增加钉钉群推送
+- 增加企业微信群推送
 
 ## 截图
 
