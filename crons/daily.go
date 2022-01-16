@@ -33,8 +33,12 @@ func Daily() {
 	for _, groupid := range common.GROUP_IDS {
 		sp := strings.Split(groupid, ",")
 		dailyMessage = "Bingan Pusher, License: " + sp[0] + "\n"
-		dailyMessage += source
-		dailyMessage += "小饼干推送已经整合棱角日报、seebug、安全客\n食用愉快么么叽～"
+		if len(source) == 0 {
+			dailyMessage += "棱角日报、seebug、安全客今天都是懒狗，么么叽～"
+		} else {
+			dailyMessage += source
+			dailyMessage += "小饼干推送已经整合棱角日报、seebug、安全客\n食用愉快么么叽～"
+		}
 		group, _ := strconv.Atoi(sp[1])
 		lib.SendMsg(group, dailyMessage)
 		lib.SendFile(group)
